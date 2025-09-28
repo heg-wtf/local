@@ -1,0 +1,37 @@
+{
+  "name": "로컬리 - 네이버에 안나오는 동네지도",
+  "short_name": "로컬리",
+  "description": "전국 맛집 지도, 여행지 추천, 숨은 명소까지! 네이버에서 찾을 수 없는 진짜 로컬 정보를 한눈에 확인하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ko-KR",
+  "dir": "ltr",
+  "categories": ["travel", "food", "lifestyle", "navigation"],
+  "icons": [
+    {
+      "src": "/images/sample1.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/sample1.webp", 
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/sample1.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "로컬리 메인 화면"
+    }
+  ]
+}
