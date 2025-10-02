@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "로컬리 | 네이버에 안나오는 동네지도 - 맛집, 여행지, 숨은명소",
+  title: "동네지도 | 네이버지도에는 없는 진짜 동네지도 - 맛집, 여행지, 숨은명소",
   description: "전국 맛집 지도, 여행지 추천, 숨은 명소까지! 네이버에서 찾을 수 없는 진짜 로컬 정보를 한눈에 확인하세요. 서울, 부산, 제주, 경주 등 전국 맛집과 여행 정보를 제공합니다.",
   keywords: ["맛집지도", "여행지추천", "로컬맛집", "숨은명소", "전국맛집", "서울맛집", "부산맛집", "제주맛집", "경주맛집", "전통주", "벚꽃명소", "온천", "휴게소맛집"],
-  authors: [{ name: "로컬리" }],
-  creator: "로컬리",
-  publisher: "로컬리",
+  authors: [{ name: "동네지도" }],
+  creator: "동네지도",
+  publisher: "동네지도",
   formatDetection: {
     email: false,
     address: false,
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     canonical: 'https://localmap.cc',
   },
   openGraph: {
-    title: "로컬리 | 네이버에 안나오는 동네지도",
+    title: "동네지도 | 네이버지도에는 없는 진짜 동네지도",
     description: "전국 맛집 지도, 여행지 추천, 숨은 명소까지! 네이버에서 찾을 수 없는 진짜 로컬 정보를 한눈에 확인하세요.",
     url: 'https://localmap.cc',
-    siteName: '로컬리',
+    siteName: '동네지도',
     locale: 'ko_KR',
     type: 'website',
     images: [
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
         url: '/images/sample1.webp',
         width: 1200,
         height: 630,
-        alt: '로컬리 - 네이버에 안나오는 동네지도',
+        alt: '동네지도 - 네이버지도에는 없는 진짜 동네지도',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "로컬리 | 네이버에 안나오는 동네지도",
+    title: "동네지도 | 네이버지도에는 없는 진짜 동네지도",
     description: "전국 맛집 지도, 여행지 추천, 숨은 명소까지! 네이버에서 찾을 수 없는 진짜 로컬 정보를 한눈에 확인하세요.",
     images: ['/images/sample1.webp'],
   },

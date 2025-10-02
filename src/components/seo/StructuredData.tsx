@@ -11,10 +11,10 @@ export function StructuredData({ data }: StructuredDataProps) {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "로컬리",
-    "alternateName": "Locally",
+    "name": "동네지도",
+    "alternateName": "DongneMap",
     "url": "https://localmap.cc",
-    "description": "네이버에 안나오는 동네지도 - 전국 맛집, 여행지, 숨은명소 정보",
+    "description": "네이버지도에는 없는 진짜 동네지도 - 전국 맛집, 여행지, 숨은명소 정보",
     "inLanguage": "ko-KR",
     "potentialAction": {
       "@type": "SearchAction",
@@ -30,10 +30,10 @@ export function StructuredData({ data }: StructuredDataProps) {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "로컬리",
+    "name": "동네지도",
     "url": "https://localmap.cc",
     "logo": "https://localmap.cc/images/sample1.webp",
-    "description": "네이버에 안나오는 동네지도를 제공하는 로컬 정보 플랫폼",
+    "description": "네이버지도에는 없는 진짜 동네지도를 제공하는 로컬 정보 플랫폼",
     "foundingDate": "2024",
     "knowsAbout": [
       "맛집 정보",
@@ -53,7 +53,7 @@ export function StructuredData({ data }: StructuredDataProps) {
   const imageGallerySchema = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
-    "name": "로컬리 맛집 및 여행지 이미지 갤러리",
+    "name": "동네지도 맛집 및 여행지 이미지 갤러리",
     "description": "전국 맛집, 여행지, 숨은명소의 이미지를 모은 갤러리",
     "url": "https://localmap.cc",
     "numberOfItems": data.metadata.totalImages,
@@ -110,10 +110,10 @@ export function StructuredData({ data }: StructuredDataProps) {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "로컬리는 어떤 서비스인가요?",
+        "name": "동네지는 어떤 서비스인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "로컬리는 네이버에서 찾을 수 없는 진짜 로컬 정보를 제공하는 동네지도 서비스입니다. 전국 맛집, 여행지, 숨은명소 정보를 한눈에 확인할 수 있습니다."
+          "text": "동네지는 네이버지도에는 없는 진짜 로컬 정보를 제공하는 동네지도 서비스입니다. 전국 맛집, 여행지, 숨은명소 정보를 한눈에 확인할 수 있습니다."
         }
       },
       {

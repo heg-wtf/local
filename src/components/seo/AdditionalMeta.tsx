@@ -6,7 +6,7 @@ export function AdditionalMeta() {
       <meta name="msapplication-TileColor" content="#3b82f6" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content="로컬리" />
+      <meta name="apple-mobile-web-app-title" content="동네지도" />
       
       {/* 지리적 메타 태그 */}
       <meta name="geo.region" content="KR" />
@@ -32,7 +32,7 @@ export function AdditionalMeta() {
       
       {/* 소셜 미디어 최적화 */}
       <meta property="og:locale:alternate" content="en_US" />
-      <meta property="og:site_name" content="로컬리 - 네이버에 안나오는 동네지도" />
+      <meta property="og:site_name" content="동네지도 - 네이버지도에는 없는 진짜 동네지도" />
       
       {/* 네이버 검색 최적화 */}
       <meta name="naver-site-verification" content="naver-verification-code" />

@@ -100,11 +100,11 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  로컬리
+                  동네지도
                 </Link>
               </h1>
               <p className="text-sm text-gray-600 mt-1" role="doc-subtitle">
-                네이버에 안나오는 동네지도 - 전국 맛집, 여행지, 숨은명소 정보
+                네이버지도에는 없는 진짜 동네지도 - 전국 맛집, 여행지, 숨은명소 정보
               </p>
             </div>
           </div>

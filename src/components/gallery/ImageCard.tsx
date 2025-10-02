@@ -73,8 +73,8 @@ export const ImageCard = memo(function ImageCard({ image, onClick, priority = fa
               {isInView && (
                 <Image
                   src={`/images/${image.filename}`}
-                  alt={`${image.title} - ${image.description || ''} ${image.tags.join(', ')} | 로컬리 맛집 여행지 정보`.trim()}
-                  title={`${image.title} - 로컬리`}
+                  alt={`${image.title} - ${image.description || ''} ${image.tags.join(', ')} | 동네지도 맛집 여행지 정보`.trim()}
+                  title={`${image.title} - 동네지도`}
                   fill
                   priority={priority}
                   loading="eager" // 수동 lazy loading이므로 eager로 설정
