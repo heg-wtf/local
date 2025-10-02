@@ -96,8 +96,6 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
               <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 <Link 
                   href="https://localmap.cc" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
                   className="hover:scale-105 transition-transform duration-200"
                 >
                   동네지도
