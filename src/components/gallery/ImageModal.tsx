@@ -148,12 +148,12 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
         <div className="relative">
           {!hasError ? (
             <>
-              {isLoading && (
-                <div className="w-full h-[800px] bg-gradient-to-br from-gray-100 to-gray-200 animate-pulse flex items-center justify-center">
-                  <div className="text-gray-500">이미지를 불러오는 중...</div>
-                </div>
-              )}
-              <div className="relative w-full max-h-[95vh] min-h-[800px]">
+                     {isLoading && (
+                       <div className="w-full h-[500px] bg-gradient-to-br from-gray-100 to-gray-200 animate-pulse flex items-center justify-center">
+                         <div className="text-gray-500">이미지를 불러오는 중...</div>
+                       </div>
+                     )}
+                     <div className="relative w-full max-h-[70vh] min-h-[500px]">
                 <Image
                   src={`/images/${image.filename}`}
                   alt={image.title}
@@ -170,7 +170,7 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
               </div>
             </>
           ) : (
-            <div className="w-full h-[800px] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                   <div className="w-full h-[500px] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
               <div className="text-center text-gray-500">
                 <div className="text-6xl mb-4">🖼️</div>
                 <div className="text-lg">이미지를 불러올 수 없습니다</div>
