@@ -21,7 +21,8 @@ dev: ## Start development server (localhost:3000)
 build: ## Build for production
 	npm run build
 	@echo "google.com, pub-8699046198561974, DIRECT, f08c47fec0942fa0" > docs/ads.txt
-	@echo "ads.txt file created in docs/ directory"
+	@echo "google.com, pub-8699046198561974, DIRECT, f08c47fec0942fa0" > public/ads.txt
+	@echo "ads.txt file created in docs/ and public/ directories"
 
 # 프로덕션 서버 실행
 start: ## Start production server
