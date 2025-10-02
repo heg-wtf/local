@@ -98,7 +98,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
                   href="https://localmap.cc" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="hover:opacity-80 transition-opacity"
+                  className="hover:scale-105 transition-transform duration-200"
                 >
                   동네지도
                 </Link>
