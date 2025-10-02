@@ -96,3 +96,7 @@ public/
 - Image loading issues: Verify file paths in `images.json`
 - Styling problems: Check Tailwind CSS class names
 - Performance: Use Next.js Image component for optimization
+
+## commit/push rule 
+- git commit only use English
+- before git push, must run `make build` 
