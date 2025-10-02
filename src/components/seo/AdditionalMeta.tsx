@@ -45,11 +45,16 @@ export function AdditionalMeta() {
       <link rel="alternate" hrefLang="ko" href="https://localmap.cc" />
       <link rel="alternate" hrefLang="x-default" href="https://localmap.cc" />
       
-      {/* 파비콘 및 아이콘 */}
-      <link rel="icon" href="/favicon.ico" sizes="any" />
-      <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      {/* 파비콘 및 아이콘 - 다양한 크기와 형식 지원 */}
+      <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
+      <link rel="icon" href="/favicon/favicon-16x16.png" sizes="16x16" type="image/png" />
+      <link rel="icon" href="/favicon/favicon-32x32.png" sizes="32x32" type="image/png" />
+      <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" sizes="180x180" />
       <link rel="manifest" href="/manifest.json" />
+      
+      {/* Microsoft Tiles */}
+      <meta name="msapplication-TileImage" content="/favicon/android-chrome-192x192.png" />
+      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       
       {/* DNS 프리페치 */}
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />

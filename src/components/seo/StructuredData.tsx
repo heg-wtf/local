@@ -32,7 +32,7 @@ export function StructuredData({ data }: StructuredDataProps) {
     "@type": "Organization",
     "name": "동네지도",
     "url": "https://localmap.cc",
-    "logo": "https://localmap.cc/images/sample1.webp",
+    "logo": "https://localmap.cc/favicon/android-chrome-192x192.png",
     "description": "네이버지도에는 없는 진짜 동네지도를 제공하는 로컬 정보 플랫폼",
     "foundingDate": "2024",
     "knowsAbout": [
