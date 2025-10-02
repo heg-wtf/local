@@ -199,28 +199,29 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
             </button>
           )}
 
-          {/* Action Buttons */}
-          <div className="absolute top-4 right-4 z-10 flex gap-2">
-            {/* Download Button */}
-            <button
-              onClick={handleDownload}
-              className="bg-black/20 hover:bg-black/40 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
-              aria-label="이미지 다운로드"
-              title="이미지 다운로드"
-            >
-              ⬇️
-            </button>
-            
-            {/* Close Button */}
-            <button
-              onClick={onClose}
-              className="bg-black/20 hover:bg-black/40 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
-              aria-label="닫기"
-            >
-              ✕
-            </button>
-          </div>
-        </div>
+                 {/* Close Button */}
+                 <div className="absolute top-4 right-4 z-10">
+                   <button
+                     onClick={onClose}
+                     className="bg-black/20 hover:bg-black/40 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
+                     aria-label="닫기"
+                   >
+                     ✕
+                   </button>
+                 </div>
+               </div>
+
+               {/* Download Button */}
+               <div className="p-4 pt-2">
+                 <button
+                   onClick={handleDownload}
+                   className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 hover:shadow-lg flex items-center justify-center gap-2"
+                   aria-label="이미지 다운로드"
+                 >
+                   <span>⬇️</span>
+                   <span>Download</span>
+                 </button>
+               </div>
       </DialogContent>
     </Dialog>
   );
