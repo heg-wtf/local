@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Tag } from "@/types/gallery";
 import { cn } from "@/lib/utils";
+import { useMemo } from "react";
 
 interface TagFilterProps {
   tags: Tag[];
@@ -16,6 +17,16 @@ interface TagFilterProps {
 
 export function TagFilter({ tags, selectedTags, onTagSelect, imageCounts }: TagFilterProps) {
   const allCount = Object.values(imageCounts).reduce((sum, count) => sum + count, 0);
+
+  // 태그를 랜덤하게 섞기
+  const shuffledTags = useMemo(() => {
+    const shuffled = [...tags];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, [tags]);
 
   return (
     <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-lg sticky top-4">
@@ -49,7 +60,7 @@ export function TagFilter({ tags, selectedTags, onTagSelect, imageCounts }: TagF
 
         {/* 개별 동네들 */}
         <div className="space-y-2">
-          {tags.map((tag) => {
+          {shuffledTags.map((tag) => {
             const count = imageCounts[tag.name] || 0;
             const isSelected = selectedTags.includes(tag.name);
 
