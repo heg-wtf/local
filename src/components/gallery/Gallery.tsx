@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo, memo } from "react";
+import Link from "next/link";
 import { ImageCard } from "./ImageCard";
 import { TagFilter } from "./TagFilter";
 import { ImageModal } from "./ImageModal";
@@ -93,7 +94,14 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
           <div className="flex items-center justify-center">
             <div className="text-center">
               <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                로컬리
+                <Link 
+                  href="https://localmap.cc" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  로컬리
+                </Link>
               </h1>
               <p className="text-sm text-gray-600 mt-1" role="doc-subtitle">
                 네이버에 안나오는 동네지도 - 전국 맛집, 여행지, 숨은명소 정보

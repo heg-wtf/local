@@ -8,7 +8,6 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/components/ui/toast";
 import { Image as ImageType } from "@/types/gallery";
 
@@ -175,21 +174,6 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
               {image.description}
             </p>
           )}
-
-          <div className="space-y-2">
-            <h4 className="font-semibold text-gray-900 text-sm">태그</h4>
-            <div className="flex flex-wrap gap-2">
-              {image.tags.map((tag) => (
-                <Badge
-                  key={tag}
-                  variant="secondary"
-                  className="bg-gradient-to-r from-orange-100 to-pink-100 text-orange-800 border-orange-200 px-3 py-1 text-sm font-medium"
-                >
-                  {tag}
-                </Badge>
-              ))}
-            </div>
-          </div>
         </div>
       </DialogContent>
     </Dialog>
