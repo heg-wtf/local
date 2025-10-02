@@ -215,11 +215,10 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
                <div className="p-4 pt-2">
                  <button
                    onClick={handleDownload}
-                   className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 hover:shadow-lg flex items-center justify-center gap-2"
+                   className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 hover:shadow-lg flex items-center justify-center"
                    aria-label="이미지 다운로드"
                  >
-                   <span>⬇️</span>
-                   <span>Download</span>
+                   Download
                  </button>
                </div>
       </DialogContent>
