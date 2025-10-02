@@ -96,6 +96,21 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-[98vw] max-h-[99vh] p-0 overflow-hidden bg-white/95 backdrop-blur-sm border-0 shadow-2xl" showCloseButton={false}>
 
+        {/* Content Header */}
+        <div className="p-4 pb-2 space-y-2 bg-white/90 backdrop-blur-sm">
+          <DialogHeader>
+            <DialogTitle className="text-xl font-bold text-gray-900">
+              {image.title}
+            </DialogTitle>
+          </DialogHeader>
+
+          {image.description && (
+            <p className="text-gray-600 text-sm leading-relaxed">
+              {image.description}
+            </p>
+          )}
+        </div>
+
         {/* Image Container */}
         <div className="relative">
           {!hasError ? (
@@ -159,21 +174,6 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
           >
             ✕
           </button>
-        </div>
-
-        {/* Content */}
-        <div className="p-4 space-y-3">
-          <DialogHeader>
-            <DialogTitle className="text-xl font-bold text-gray-900">
-              {image.title}
-            </DialogTitle>
-          </DialogHeader>
-
-          {image.description && (
-            <p className="text-gray-600 text-sm leading-relaxed">
-              {image.description}
-            </p>
-          )}
         </div>
       </DialogContent>
     </Dialog>
