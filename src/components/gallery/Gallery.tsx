@@ -18,7 +18,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const { ToastContainer } = useToast();
 
-  // 선택된 태그에 따라 이미지 필터링
+  // 선택된 동네에 따라 이미지 필터링
   const filteredImages = useMemo(() => {
     if (selectedTags.length === 0) {
       return data.images;
@@ -28,7 +28,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
     );
   }, [data.images, selectedTags]);
 
-  // 각 태그별 이미지 개수 계산
+  // 각 동네별 이미지 개수 계산
   const imageCounts = useMemo(() => {
     const counts: Record<string, number> = {};
     
@@ -41,7 +41,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
     return counts;
   }, [data.images, data.tags]);
 
-  // 태그 선택 핸들러
+  // 동네 선택 핸들러
   const handleTagSelect = (tag: string) => {
     if (tag === "all") {
       setSelectedTags([]);
@@ -104,7 +104,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
                 </Link>
               </h1>
               <p className="text-sm text-gray-600 mt-1" role="doc-subtitle">
-                네이버지도에는 없는 진짜 동네지도 - 전국 맛집, 여행지, 숨은명소 정보
+                네이버지도에는 없는 진짜 동네지도
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" role="main">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Sidebar */}
-          <aside className="lg:col-span-1" role="complementary" aria-label="필터 옵션">
+          <aside className="lg:col-span-1" role="complementary" aria-label="동네 필터 옵션">
             <TagFilter
               tags={data.tags}
               selectedTags={selectedTags}
@@ -133,7 +133,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
                   이미지가 없습니다
                 </h3>
                 <p className="text-gray-600">
-                  선택한 태그에 해당하는 이미지가 없습니다.
+                  선택한 동네에 해당하는 이미지가 없습니다.
                 </p>
               </div>
             ) : (

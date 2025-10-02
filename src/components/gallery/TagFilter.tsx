@@ -21,11 +21,11 @@ export function TagFilter({ tags, selectedTags, onTagSelect, imageCounts }: TagF
     <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-lg sticky top-4">
       <CardHeader className="pb-4">
         <CardTitle className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          태그 필터
+          동네 필터
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-2">
-        {/* All 태그 */}
+        {/* 전체 동네 */}
         <Button
           variant={selectedTags.length === 0 ? "default" : "ghost"}
           className={cn(
@@ -47,7 +47,7 @@ export function TagFilter({ tags, selectedTags, onTagSelect, imageCounts }: TagF
 
         <Separator className="my-4" />
 
-        {/* 개별 태그들 */}
+        {/* 개별 동네들 */}
         <div className="space-y-2">
           {tags.map((tag) => {
             const count = imageCounts[tag.name] || 0;
