@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import { AdditionalMeta } from "@/components/seo/AdditionalMeta";
+import { AdSense } from "@/components/AdSense";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -79,28 +79,12 @@ export default function RootLayout({
     <html lang="ko">
       <head>
         <AdditionalMeta />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8699046198561974"
-          crossOrigin="anonymous"
-        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        {/* AdSense 광고 */}
-        <ins 
-          className="adsbygoogle"
-          style={{ display: 'block' }}
-          data-ad-client="ca-pub-8699046198561974"
-          data-ad-slot="1172358707"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-        <Script id="adsense-init">
-          {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-        </Script>
+        <AdSense />
       </body>
     </html>
   );
