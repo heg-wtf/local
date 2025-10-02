@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import {
   Dialog,
@@ -55,6 +55,9 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
         } else {
           onImageChange(currentIndex + 1);
         }
+      } else if (event.key === "d" && event.ctrlKey) {
+        event.preventDefault();
+        handleDownload();
       }
     };
 
@@ -78,19 +81,49 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
     }
   };
 
-  if (!image) return null;
-
   const handleImageLoad = () => {
+    if (!image) return;
     console.log('Image loaded successfully:', image.filename);
     setIsLoading(false);
     setHasError(false);
   };
 
   const handleImageError = () => {
+    if (!image) return;
     console.error('Image loading error:', image.filename);
     setIsLoading(false);
     setHasError(true);
   };
+
+  const handleDownload = useCallback(async () => {
+    if (!image) return;
+    
+    try {
+      const response = await fetch(`/images/${image.filename}`);
+      const blob = await response.blob();
+      
+      // 파일명 생성 (확장자 포함)
+      const fileExtension = image.filename.split('.').pop();
+      const fileName = `${image.title || '동네지도_이미지'}.${fileExtension}`;
+      
+      // 다운로드 링크 생성
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+      
+      addToast("이미지가 다운로드되었습니다", "success");
+    } catch (error) {
+      console.error('Download error:', error);
+      addToast("다운로드 중 오류가 발생했습니다", "error");
+    }
+  }, [image, addToast]);
+
+  if (!image) return null;
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
@@ -166,14 +199,27 @@ export function ImageModal({ images, currentIndex, isOpen, onClose, onImageChang
             </button>
           )}
 
-          {/* Close Button */}
-          <button
-            onClick={onClose}
-            className="absolute top-4 right-4 z-10 bg-black/20 hover:bg-black/40 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
-            aria-label="닫기"
-          >
-            ✕
-          </button>
+          {/* Action Buttons */}
+          <div className="absolute top-4 right-4 z-10 flex gap-2">
+            {/* Download Button */}
+            <button
+              onClick={handleDownload}
+              className="bg-black/20 hover:bg-black/40 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
+              aria-label="이미지 다운로드"
+              title="이미지 다운로드"
+            >
+              ⬇️
+            </button>
+            
+            {/* Close Button */}
+            <button
+              onClick={onClose}
+              className="bg-black/20 hover:bg-black/40 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
+              aria-label="닫기"
+            >
+              ✕
+            </button>
+          </div>
         </div>
       </DialogContent>
     </Dialog>
