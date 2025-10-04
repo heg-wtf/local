@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://localmap.cc</loc>
+    <lastmod>2025-09-27T00:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    
+    <image:image>
+      <image:loc>https://localmap.cc/images/sample1.webp</image:loc>
+      <image:caption>서울 시내 장소 이미지</image:caption>
+      <image:title>서울 시내 장소 이미지</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/1.png</image:loc>
+      <image:caption>휴게소 맛집</image:caption>
+      <image:title>휴게소 맛집</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/106736_128826_055.jpg</image:loc>
+      <image:caption>AI 통화비서 맛집</image:caption>
+      <image:title>AI 통화비서 맛집</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/autum.png</image:loc>
+      <image:caption>가을 맛집</image:caption>
+      <image:title>가을 맛집</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/japan_sakura.jpg</image:loc>
+      <image:caption>일본 벚꽃</image:caption>
+      <image:title>일본 벚꽃</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kukbob.jpg</image:loc>
+      <image:caption>국밥지도</image:caption>
+      <image:title>국밥지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/mac.jpg</image:loc>
+      <image:caption>맥도날드 뷰 맛집지도</image:caption>
+      <image:title>맥도날드 뷰 맛집지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/nudle.jpg</image:loc>
+      <image:caption>전국 면발 맛집 지도</image:caption>
+      <image:title>전국 면발 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/oysterbay.jpg</image:loc>
+      <image:caption>오이스터베이 맛집 지도</image:caption>
+      <image:title>오이스터베이 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/spa1.png</image:loc>
+      <image:caption>전국 온천/스타 지도</image:caption>
+      <image:title>전국 온천/스타 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tokyo.jpg</image:loc>
+      <image:caption>도쿄 맛집 지도</image:caption>
+      <image:title>도쿄 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul1.png</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul2.png</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul3.jpg</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul4.jpg</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul5.jpg</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul6.jpg</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sul/korean_sul7.jpg</image:loc>
+      <image:caption>전통주지도</image:caption>
+      <image:title>전통주지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt1.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt10.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt2.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt3.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt4.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt5.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt6.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt7.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt8.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/tmap/skt9.jpg</image:loc>
+      <image:caption>티맵 맛집 지도</image:caption>
+      <image:title>티맵 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4KPrxUEAABrIu.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4KQKkUIAA9uQk.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4KQqhUEAAqAKr.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4KRPoVEAEOjcQ.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4LwwzUEAAgeck.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4Lx77UMAAyJb2.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4LxYJVEAIjTLs.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/B-4Lyh6VEAExXrd.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/dobong_cultural_foundation__2023-02-07T050018.000Z_1.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/enjoy.seoul__2024-09-23T034512.000Z_1.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/enjoy.seoul__2024-09-23T034512.000Z_2.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/enjoy.seoul__2024-09-23T034512.000Z_3.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/enjoy.seoul__2024-09-23T034512.000Z_4.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/samam_map.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/SSC_20250125103026_O2.png.webp</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/seoul/ZfzIa5yoMsDVW7sxzE2p.jpg</image:loc>
+      <image:caption>서울 맛집 지도</image:caption>
+      <image:title>서울 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sakura/sakura1.png</image:loc>
+      <image:caption>벚꽃 지도</image:caption>
+      <image:title>벚꽃 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/sakura/sakura2.jpg</image:loc>
+      <image:caption>벚꽃 지도</image:caption>
+      <image:title>벚꽃 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_1.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_2.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_3.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_4.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_5.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_6.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_7.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/kj/all.about.ulsan__2024-04-08T100037.000Z_8.jpg</image:loc>
+      <image:caption>경주 맛집 지도</image:caption>
+      <image:title>경주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/busan/1.jpg</image:loc>
+      <image:caption>부산 맛집 지도</image:caption>
+      <image:title>부산 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/busan/2.jpg</image:loc>
+      <image:caption>부산 맛집 지도</image:caption>
+      <image:title>부산 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/busan/3.webp</image:loc>
+      <image:caption>부산 맛집 지도</image:caption>
+      <image:title>부산 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/busan/busan-taxi.jpg</image:loc>
+      <image:caption>부산 맛집 지도</image:caption>
+      <image:title>부산 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/busan/busan1.jpg</image:loc>
+      <image:caption>부산 맛집 지도</image:caption>
+      <image:title>부산 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/jeju/358345664_247999408003864_6266992533235339006_n.jpg</image:loc>
+      <image:caption>제주 맛집 지도</image:caption>
+      <image:title>제주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/jeju/358777368_168255889591889_8621037386821872563_n.jpg</image:loc>
+      <image:caption>제주 맛집 지도</image:caption>
+      <image:title>제주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/jeju/358965908_651930363217084_1997972324386376016_n.jpg</image:loc>
+      <image:caption>제주 맛집 지도</image:caption>
+      <image:title>제주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+  </url>
+</urlset>

@@ -83,24 +83,94 @@ export function StructuredData({ data }: StructuredDataProps) {
       {
         "@type": "Place",
         "name": "서울 맛집",
-        "description": "서울 지역의 맛집 정보"
+        "description": "서울 지역의 맛집 정보",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "서울특별시",
+          "addressCountry": "KR"
+        }
       },
       {
         "@type": "Place", 
         "name": "부산 맛집",
-        "description": "부산 지역의 맛집 정보"
+        "description": "부산 지역의 맛집 정보",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "부산광역시",
+          "addressCountry": "KR"
+        }
       },
       {
         "@type": "Place",
         "name": "제주 맛집", 
-        "description": "제주도의 맛집 정보"
+        "description": "제주도의 맛집 정보",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "제주특별자치도",
+          "addressCountry": "KR"
+        }
       },
       {
         "@type": "Place",
         "name": "경주 맛집",
-        "description": "경주 지역의 맛집 정보"
+        "description": "경주 지역의 맛집 정보",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "경주시",
+          "addressCountry": "KR"
+        }
       }
     ]
+  };
+
+  // 브레드크럼 스키마
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://localmap.cc"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "맛집 지도",
+        "item": "https://localmap.cc?category=맛집"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "여행지 추천",
+        "item": "https://localmap.cc?category=여행지"
+      }
+    ]
+  };
+
+  // 로컬 비즈니스 스키마
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "동네지도",
+    "description": "네이버지도에는 없는 진짜 로컬 정보를 제공하는 동네지도",
+    "url": "https://localmap.cc",
+    "telephone": "+82-10-0000-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "KR",
+      "addressLocality": "서울특별시"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.5665,
+      "longitude": 126.9780
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "priceRange": "무료",
+    "paymentAccepted": "무료",
+    "currenciesAccepted": "KRW"
   };
 
   // FAQ 스키마
@@ -140,6 +210,8 @@ export function StructuredData({ data }: StructuredDataProps) {
     organizationSchema, 
     imageGallerySchema,
     restaurantCollectionSchema,
+    breadcrumbSchema,
+    localBusinessSchema,
     faqSchema
   ];
 

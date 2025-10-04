@@ -58,6 +58,12 @@
       "namedRegex": "^/robots\\.txt(?:/)?$"
     },
     {
+      "page": "/sitemap-images.xml",
+      "regex": "^/sitemap\\-images\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\-images\\.xml(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},

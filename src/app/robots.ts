@@ -32,7 +32,10 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: 'https://localmap.cc/sitemap.xml',
+    sitemap: [
+      'https://localmap.cc/sitemap.xml',
+      'https://localmap.cc/sitemap-images.xml'
+    ],
     host: 'https://localmap.cc',
   }
 }

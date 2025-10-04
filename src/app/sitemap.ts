@@ -55,7 +55,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }))
 
   // 카테고리별 페이지들
-  const categoryTags = ['맛집', '전통주', '벚꽃', '온천', '휴게소']
+  const categoryTags = ['맛집', '전통주', '벚꽃', '온천', '휴게소', '여행지', '숨은명소', '로컬맛집']
   const categoryPages: MetadataRoute.Sitemap = categoryTags.map((category) => ({
     url: `${baseUrl}?category=${encodeURIComponent(category)}`,
     lastModified: lastModified,
@@ -63,10 +63,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }))
 
+  // 이미지 사이트맵 추가
+  const imagePages: MetadataRoute.Sitemap = galleryData.images.slice(0, 50).map((image) => ({
+    url: `${baseUrl}?image=${encodeURIComponent(image.filename)}`,
+    lastModified: lastModified,
+    changeFrequency: 'monthly' as const,
+    priority: 0.5,
+  }))
+
   return [
     ...staticPages,
     ...locationPages,
     ...categoryPages,
+    ...imagePages,
     ...tagPages,
   ]
 }
