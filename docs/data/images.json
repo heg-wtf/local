@@ -63,7 +63,15 @@
       "title": "맥도날드 뷰 맛집지도",
       "description": "맥도날드 뷰 맛집지도",
       "tags": [
-        "맥도날드"
+        "맥도날드", 
+        "경기", 
+        "충청", 
+        "경상", 
+        "강원", 
+        "전라", 
+        "강릉", 
+        "여수",
+        "제주"
       ]
     },
     {
@@ -607,6 +615,82 @@
         "맛집"
       ]
     }
+    ,
+    {
+      "id": 63,
+      "filename": "pohang/pohang1.jpg",
+      "title": "포항 남구 맛집 지도",
+      "description": "포항 남구 맛집 지도",
+      "tags": [
+        "포항",
+        "남구",
+        "맛집"
+      ]
+    }
+    ,
+    {
+      "id": 64,
+      "filename": "pohang/pohang2.jpg",
+      "title": "포항 도심 지도",
+      "description": "포항 남구 지도",
+      "tags": [
+        "포항",
+        "맛집"
+      ]
+    }
+    ,
+    {
+      "id": 65,
+      "filename": "pohang/pohang3.jpg",
+      "title": "포항 죽장 기계 기북 신광 맛집 지도",
+      "description": "포항 죽장 기계 기북 신광 맛집 지도",
+      "tags": [
+        "포항",
+        "죽장",
+        "기계",
+        "기북",
+        "신광",
+        "맛집"
+      ]
+    }
+    ,
+    {
+      "id": 66,
+      "filename": "pohang/pohang4.jpg",
+      "title": "포항 송라 청하 홍해 맛집 지도",
+      "description": "포항 송라 청하 홍해 맛집 지도",
+      "tags": [
+        "포항",
+        "송라",
+        "청하",
+        "홍해",
+        "맛집"
+      ]
+    }
+    ,
+    {
+      "id": 67,
+      "filename": "pohang/pohang5.jpg",
+      "title": "포항 명소 지도",
+      "description": "포항 지도",
+      "tags": [
+        "포항", 
+        "맛집"
+      ]
+    }
+    ,
+    {
+      "id": 68,
+      "filename": "pohang/pohang6.jpg",
+      "title": "포항 여름 맛집 지도",
+      "description": "포항 여름 맛집 지도",
+      "tags": [
+        "포항",
+        "여름",
+        "맛집"
+      ]
+    }
+
   ],
   "tags": [
     {
@@ -728,12 +812,97 @@
       "name": "티맵",
       "description": "티맵 관련 이미지",
       "color": "#2b5a8b"
+    },
+    {
+      "name": "포항",
+      "description": "포항 지역 맛집과 여행지",
+      "color": "#6366f1"
+    },
+    {
+      "name": "남구",
+      "description": "포항 남구 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "죽장",
+      "description": "포항 죽장면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "기계",
+      "description": "포항 기계면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "기북",
+      "description": "포항 기북면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "신광",
+      "description": "포항 신광면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "송라",
+      "description": "포항 송라면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "청하",
+      "description": "포항 청하면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "홍해",
+      "description": "포항 홍해면 지역 정보",
+      "color": "#6366f1"
+    },
+    {
+      "name": "여름",
+      "description": "여름 계절 관련 이미지",
+      "color": "#f59e0b"
+    },
+    {
+      "name": "경기",
+      "description": "경기도 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "충청",
+      "description": "충청도 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "경상",
+      "description": "경상도 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "강원",
+      "description": "강원도 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "전라",
+      "description": "전라도 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "강릉",
+      "description": "강릉 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "여수",
+      "description": "여수 지역 정보",
+      "color": "#10b981"
     }
   ],
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2025-09-27",
+    "lastUpdated": "2025-01-27",
     "totalImages": 62,
-    "totalTags": 24
+    "totalTags": 41
   }
 }

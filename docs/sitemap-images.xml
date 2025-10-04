@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://localmap.cc</loc>
-    <lastmod>2025-09-27T00:00:00.000Z</lastmod>
+    <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     
@@ -437,6 +437,48 @@
       <image:loc>https://localmap.cc/images/jeju/358965908_651930363217084_1997972324386376016_n.jpg</image:loc>
       <image:caption>제주 맛집 지도</image:caption>
       <image:title>제주 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/pohang/pohang1.jpg</image:loc>
+      <image:caption>포항 남구 맛집 지도</image:caption>
+      <image:title>포항 남구 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/pohang/pohang2.jpg</image:loc>
+      <image:caption>포항 도심 지도</image:caption>
+      <image:title>포항 도심 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/pohang/pohang3.jpg</image:loc>
+      <image:caption>포항 죽장 기계 기북 신광 맛집 지도</image:caption>
+      <image:title>포항 죽장 기계 기북 신광 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/pohang/pohang4.jpg</image:loc>
+      <image:caption>포항 송라 청하 홍해 맛집 지도</image:caption>
+      <image:title>포항 송라 청하 홍해 맛집 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/pohang/pohang5.jpg</image:loc>
+      <image:caption>포항 명소 지도</image:caption>
+      <image:title>포항 명소 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/pohang/pohang6.jpg</image:loc>
+      <image:caption>포항 여름 맛집 지도</image:caption>
+      <image:title>포항 여름 맛집 지도</image:title>
       <image:license>https://localmap.cc</image:license>
       <image:geo_location>대한민국</image:geo_location>
     </image:image>
