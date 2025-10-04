@@ -690,6 +690,17 @@
         "맛집"
       ]
     }
+    ,
+    {
+      "id": 69,
+      "filename": "2025_danpoong.jpg",
+      "title": "2025 전국 단풍 지도",
+      "description": "2025 전국 단풍 지도",
+      "tags": [
+        "단풍",
+        "2025"
+      ]
+    }
 
   ],
   "tags": [
@@ -897,12 +908,22 @@
       "name": "여수",
       "description": "여수 지역 정보",
       "color": "#10b981"
+    },
+    {
+      "name": "단풍",
+      "description": "단풍 명소 및 가을 여행지",
+      "color": "#dc2626"
+    },
+    {
+      "name": "2025",
+      "description": "2025년 관련 정보",
+      "color": "#7c3aed"
     }
   ],
   "metadata": {
     "version": "1.0",
     "lastUpdated": "2025-01-27",
-    "totalImages": 62,
-    "totalTags": 41
+    "totalImages": 63,
+    "totalTags": 43
   }
 }

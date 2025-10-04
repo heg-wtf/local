@@ -482,5 +482,12 @@
       <image:license>https://localmap.cc</image:license>
       <image:geo_location>대한민국</image:geo_location>
     </image:image>
+    <image:image>
+      <image:loc>https://localmap.cc/images/2025_danpoong.jpg</image:loc>
+      <image:caption>2025 전국 단풍 지도</image:caption>
+      <image:title>2025 전국 단풍 지도</image:title>
+      <image:license>https://localmap.cc</image:license>
+      <image:geo_location>대한민국</image:geo_location>
+    </image:image>
   </url>
 </urlset>
