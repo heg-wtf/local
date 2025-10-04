@@ -99,4 +99,5 @@ public/
 
 ## commit/push rule 
 - git commit only use English
+- Always update the `tags` section in `images.json` to include all tags used in the images.
 - before git push, must run `make build` 
