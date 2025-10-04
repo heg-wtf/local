@@ -23,6 +23,11 @@ build: ## Build for production
 	@echo "google.com, pub-8699046198561974, DIRECT, f08c47fec0942fa0" > docs/ads.txt
 	@echo "google.com, pub-8699046198561974, DIRECT, f08c47fec0942fa0" > public/ads.txt
 	@echo "ads.txt file created in docs/ and public/ directories"
+	@if [ -f "docs/sitemap.xml" ]; then \
+		echo "sitemap.xml already exists in docs/"; \
+	else \
+		echo "Warning: sitemap.xml not found in docs/ - Next.js should generate it automatically"; \
+	fi
 
 # 프로덕션 서버 실행
 start: ## Start production server
