@@ -892,8 +892,211 @@
       "tags": [
         "청와대"
       ]
-    }
+    }, 
+    {
+      "id": 88,
+      "filename": "일본대표맛집.jpeg",
+      "title": "일본 히로시마 맛집 지도",
+      "description": "일본 히로시마 맛집 지도",
+      "tags": [
+        "일본",
+        "히로시마",
+        "맛집"
+      ]
+    }, 
+    {
+      "id": 89,
+      "filename": "전국음식관광.jpeg",
+      "title": "전국 음식관광 지도",
+      "description": "전국 음식관광 지도",
+      "tags": [ 
+        "맛집"
+      ]
+    },
+    {
+      "id": 90,
+      "filename": "dduk1.jpeg",
+      "title": "떡볶이 지도",
+      "description": "떡볶이 지도",
+      "tags": [
+        "떡볶이"
+      ]
+    },
+    {
+      "id": 91,
+      "filename": "japan_beer.jpeg",
+      "title": "일본 맥주 지도",
+      "description": "일본 맥주 지도",
+      "tags": [
+        "일본",
+        "맥주"
+      ]
+    },
+    {
+      "id": 92,
+      "filename": "dduk2.jpg",
+      "title": "떡볶이 지도",
+      "description": "떡볶이 지도",
+      "tags": [
+        "떡볶이"
+      ]
+    },
+    {
+      "id": 93,
+      "filename": "dduk3.jpg",
+      "title": "떡볶이 지도",
+      "description": "떡볶이 지도",
+      "tags": [
+        "떡볶이"
+      ]
+    },{
+      "id": 94,
+      "filename": "sachal_food_map.jpg",
+      "title": "사찰 음식 지도",
+      "description": "사찰 음식 지도",
+      "tags": [   
+        "사찰음식"
+      ]
+    }, 
+    {
+      "id": 95,
+      "filename": "train1.jpg",
+      "title": "열차 음식 지도",
+      "description": "열차 음식 지도",
+      "tags": [   
+        "열차음식"
+      ]
+    }, 
+    {
+      "id": 96,
+      "filename": "japan1.jpg",
+      "title": "일본 맛집 지도",
+      "description": "일본 맛집 지도",
+      "tags": [   
+        "일본",
+        "맛집"
+      ]
+    }, 
+    {
+      "id": 97,
+      "filename": "japan2.jpg",
+      "title": "일본 맛집 지도",
+      "description": "일본 맛집 지도",
+      "tags": [   
+        "일본",
+        "맛집"
+      ]
+    },
+    {
+      "id": 98,
+      "filename": "usa-food1.jpg",
+      "title": "미국 맛집 지도",
+      "description": "미국 맛집 지도",
+      "tags": [   
+        "미국",
+        "맛집"
+      ]
+    },
+    {
+      "id": 99,
+      "filename": "usa-food2.jpg",
+      "title": "미국 맛집 지도",
+      "description": "미국 맛집 지도",
+      "tags": [   
+        "미국",
+        "맛집"
+      ]
+    },
+    {
+      "id": 100,
+      "filename": "usa-bbq1.webp",
+      "title": "미국 BBQ 지도",
+      "description": "미국 BBQ 지도",
+      "tags": [   
+        "미국",
+        "BBQ"
+      ]
+    },
+    {
+      "id": 101,
+      "filename": "usa-bbq2.webp",
+      "title": "미국 BBQ 지도",
+      "description": "미국 BBQ 지도",
+      "tags": [   
+        "미국",
+        "BBQ"
+      ]
 
+    }
+    ,    
+    {
+      "id": 102,
+      "filename": "usa-bbq3.webp",
+      "title": "미국 BBQ 지도",
+      "description": "미국 BBQ 지도",
+      "tags": [   
+        "미국",
+        "BBQ"
+      ]
+    },
+    {
+      "id": 103,
+      "filename": "천주교순례길1.jpg",
+      "title": "천주교순례길 지도",
+      "description": "천주교순례길 지도",
+      "tags": [   
+        "천주교순례길"
+      ]
+    },
+    {
+      "id": 104,
+      "filename": "천주교순례길2.jpg",
+      "title": "천주교순례길 지도",
+      "description": "천주교순례길 지도",
+      "tags": [   
+        "천주교순례길"
+      ]
+    },
+    {
+      "id": 105,
+      "filename": "korea-craft-beer.jpg",
+      "title": "한국 수제맥주 지도",
+      "description": "한국 수제맥주 지도",
+      "tags": [   
+        "한국",
+        "수제맥주",
+        "맥주"
+      ]
+    },
+    {
+      "id": 106,
+      "filename": "germany-beer.jpg",
+      "title": "독일 맥주 지도",
+      "description": "독일 맥주 지도",
+      "tags": [   
+        "독일",
+        "맥주"
+      ]
+    }, 
+    {
+      "id": 107,
+      "filename": "usa-beer.jpg",
+      "title": "미국 맥주 지도",
+      "description": "미국 맥주 지도",
+      "tags": [   
+        "미국",
+        "맥주"
+      ]
+    },
+    {
+      "id": 108,
+      "filename": "soju.webp",
+      "title": "소주 지도",
+      "description": "소주 지도",
+      "tags": [   
+        "소주"
+      ]
+    }
   ],
   "tags": [
     {
@@ -1215,12 +1418,67 @@
       "name": "청와대",
       "description": "청와대 관련 정보",
       "color": "#1d4ed8"
+    },
+    {
+      "name": "히로시마",
+      "description": "히로시마 지역 정보",
+      "color": "#059669"
+    },
+    {
+      "name": "떡볶이",
+      "description": "떡볶이 관련 정보",
+      "color": "#dc2626"
+    },
+    {
+      "name": "맥주",
+      "description": "맥주 관련 정보",
+      "color": "#f59e0b"
+    },
+    {
+      "name": "사찰음식",
+      "description": "사찰음식 관련 정보",
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "열차음식",
+      "description": "열차음식 관련 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "미국",
+      "description": "미국 관련 정보",
+      "color": "#ef4444"
+    },
+    {
+      "name": "BBQ",
+      "description": "BBQ 관련 정보",
+      "color": "#dc2626"
+    },
+    {
+      "name": "천주교순례길",
+      "description": "천주교순례길 관련 정보",
+      "color": "#7c3aed"
+    },
+    {
+      "name": "수제맥주",
+      "description": "수제맥주 관련 정보",
+      "color": "#f59e0b"
+    },
+    {
+      "name": "독일",
+      "description": "독일 관련 정보",
+      "color": "#059669"
+    },
+    {
+      "name": "소주",
+      "description": "소주 관련 정보",
+      "color": "#8b5a2b"
     }
   ],
   "metadata": {
     "version": "1.0",
     "lastUpdated": "2025-01-27",
-    "totalImages": 87,
-    "totalTags": 65
+    "totalImages": 108,
+    "totalTags": 77
   }
 }
