@@ -54,6 +54,14 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
         }
       });
     }
+    
+    // 태그 선택 후 페이지 최상단으로 스크롤
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }, 100);
   };
 
   // 이미지 클릭 핸들러
@@ -123,7 +131,7 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
           </aside>
 
           {/* Gallery Grid */}
-          <section className="lg:col-span-3" role="region" aria-label="이미지 갤러리">
+          <section id="gallery-section" className="lg:col-span-3" role="region" aria-label="이미지 갤러리">
             {filteredImages.length === 0 ? (
               <div className="text-center py-16">
                 <div className="text-6xl mb-4">🖼️</div>
