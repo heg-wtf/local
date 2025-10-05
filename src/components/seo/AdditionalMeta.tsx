@@ -51,7 +51,7 @@ export function AdditionalMeta() {
       <meta name="google-adsense-account" content="ca-pub-xxxxxxxxx" />
       
       {/* 추가 검색엔진 최적화 */}
-      <meta name="subject" content="맛집, 여행지, 숨은명소, 동네지도, 로컬정보" />
+      <meta name="subject" content="맛집, 여행지, 숨은명소, 휴게소, 2025, 동네지도, 로컬정보" />
       <meta name="copyright" content="동네지도" />
       <meta name="reply-to" content="info@localmap.cc" />
       <meta name="owner" content="동네지도" />

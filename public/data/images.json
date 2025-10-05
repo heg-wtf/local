@@ -701,6 +701,198 @@
         "2025"
       ]
     }
+    ,
+    {
+      "id": 70,
+      "filename": "wando1.jpg",
+      "title": "완도 지도",
+      "description": "완도 지도",
+      "tags": [
+        "완도",
+        "맛집"
+      ]
+    }
+    ,
+    {
+      "id": 71,
+      "filename": "wando2.jpg",
+      "title": "완도 지도",
+      "description": "완도 지도",
+      "tags": [
+        "완도",
+        "맛집"
+      ]
+    }, 
+    {
+      "id": 72,
+      "filename": "pet_rest_2025.jpg",
+      "title": "2025 전국 반려동물 휴게소 지도",
+      "description": "2025 전국 반려동물 휴게소 지도",
+      "tags": [
+        "반려동물",
+        "휴게소",
+        "2025"
+      ]
+    }
+    ,
+    {
+      "id": 73,
+      "filename": "topten_jeju.jpg",
+      "title": "탑텐 제주지도",
+      "description": "탑텐 제주지도",
+      "tags": [
+        "탑텐",
+        "제주",
+        "맛집"
+      ]
+    },
+    {
+      "id": 74,
+      "filename": "redwine_graph.jpg",
+      "title": "레드 와인 지도",
+      "description": "레드 와인 지도",
+      "tags": [
+        "와인",
+        "레드와인"
+      ]
+    },
+    {
+      "id": 75,
+      "filename": "beach.jpg",
+      "title": "해변/바다/해수욕장 지도",
+      "description": "해변/바다/해수욕장 지도",
+      "tags": [
+        "해수욕장",
+        "바다",
+        "해변"
+      ]
+    },
+    {
+      "id": 76,
+      "filename": "2021-2022-korea.jpg",
+      "title": "2021-2022 한국관광 100선 지도",
+      "description": "2021-2022 한국관광 100선 지도",
+      "tags": [
+        "관광",
+        "2021",
+        "2022"
+      ]
+    },
+    {
+      "id": 77,
+      "filename": "2023-2024-korea.jpg",
+      "title": "2023-2024 한국관광 100선 지도",
+      "description": "2023-2024 한국관광 100선 지도",
+      "tags": [
+        "관광",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "id": 78,
+      "filename": "science-40.jpg",
+      "title": "과학여행 40선 지도",
+      "description": "과학여행 40선 지도",
+      "tags": [
+        "과학여행"
+      ]
+    },
+    {
+      "id": 79,
+      "filename": "2025-mi1.jpg",
+      "title": "2025 미쉐린 서울",
+      "description": "2025 미쉐린 서울 지도",
+      "tags": [
+        "미쉐린",
+        "서울",
+        "2025"
+      ]
+    },
+    {
+      "id": 80,
+      "filename": "2025-mi2.jpg",
+      "title": "2025 미쉐린 서울 지도",
+      "description": "2025 미쉐린 서울 지도",
+      "tags": [
+        "미쉐린",
+        "서울",
+        "2025"
+      ]
+    },
+    {
+      "id": 81,
+      "filename": "2025-mi3.jpg",
+      "title": "2025 미쉐린 부산 지도",
+      "description": "2025 미쉐린 부산 지도",
+      "tags": [
+        "미쉐린",
+        "부산",
+        "2025"
+      ]
+    },
+    {
+      "id": 82,
+      "filename": "2025-mi-busan.png",
+      "title": "2025 미쉐린 부산 지도",
+      "description": "2025 미쉐린 부산 지도",
+      "tags": [
+        "미쉐린",
+        "부산",
+        "2025"
+      ]
+    },
+    {
+      "id": 83,
+      "filename": "t1.jpg",
+      "title": "충청도 강원도 전통주 지도",
+      "description": "충청도 강원도 전통주 지도",
+      "tags": [
+        "충청도",
+        "강원도",
+        "전통주",
+        "명인"
+      ]
+    },
+    {
+      "id": 84,
+      "filename": "t2.jpg",
+      "title": "서울 경기도 전통주 명인 지도",
+      "description": "서울 경기도 전통주 명인 지도",
+      "tags": [
+        "서울",
+        "경기도",
+        "전통주",
+        "명인"
+      ]
+    },
+    {
+      "id": 85,
+      "filename": "italy.png",
+      "title": "이탈리아 대표 지도",
+      "description": "이탈리아 대표 지도",
+      "tags": [
+        "이탈리아"
+      ]
+    },
+    {
+      "id": 86,
+      "filename": "korea-fruits.jpg",
+      "title": "한국 과일 지도",
+      "description": "한국 과일 지도",
+      "tags": [
+        "과일"
+      ]
+    },
+    {
+      "id": 87,
+      "filename": "bluehouse-around.jpg",
+      "title": "청와대 근처 관광 지도",
+      "description": "청와대 근처 관광 지도",
+      "tags": [
+        "청와대"
+      ]
+    }
 
   ],
   "tags": [
@@ -918,12 +1110,117 @@
       "name": "2025",
       "description": "2025년 관련 정보",
       "color": "#7c3aed"
+    },
+    {
+      "name": "완도",
+      "description": "완도 지역 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "반려동물",
+      "description": "반려동물 관련 정보",
+      "color": "#f97316"
+    },
+    {
+      "name": "탑텐",
+      "description": "탑텐 브랜드 관련 정보",
+      "color": "#ef4444"
+    },
+    {
+      "name": "레드와인",
+      "description": "레드와인 관련 정보",
+      "color": "#dc2626"
+    },
+    {
+      "name": "해수욕장",
+      "description": "해수욕장 관련 정보",
+      "color": "#0891b2"
+    },
+    {
+      "name": "바다",
+      "description": "바다 관련 정보",
+      "color": "#0ea5e9"
+    },
+    {
+      "name": "해변",
+      "description": "해변 관련 정보",
+      "color": "#0284c7"
+    },
+    {
+      "name": "관광",
+      "description": "관광 관련 정보",
+      "color": "#059669"
+    },
+    {
+      "name": "2021",
+      "description": "2021년 관련 정보",
+      "color": "#7c3aed"
+    },
+    {
+      "name": "2022",
+      "description": "2022년 관련 정보",
+      "color": "#7c3aed"
+    },
+    {
+      "name": "2023",
+      "description": "2023년 관련 정보",
+      "color": "#7c3aed"
+    },
+    {
+      "name": "2024",
+      "description": "2024년 관련 정보",
+      "color": "#7c3aed"
+    },
+    {
+      "name": "과학여행",
+      "description": "과학여행 관련 정보",
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "미쉐린",
+      "description": "미쉐린 가이드 관련 정보",
+      "color": "#dc2626"
+    },
+    {
+      "name": "충청도",
+      "description": "충청도 지역 정보",
+      "color": "#16a34a"
+    },
+    {
+      "name": "강원도",
+      "description": "강원도 지역 정보",
+      "color": "#16a34a"
+    },
+    {
+      "name": "경기도",
+      "description": "경기도 지역 정보",
+      "color": "#16a34a"
+    },
+    {
+      "name": "명인",
+      "description": "명인 관련 정보",
+      "color": "#ca8a04"
+    },
+    {
+      "name": "이탈리아",
+      "description": "이탈리아 관련 정보",
+      "color": "#059669"
+    },
+    {
+      "name": "과일",
+      "description": "과일 관련 정보",
+      "color": "#ea580c"
+    },
+    {
+      "name": "청와대",
+      "description": "청와대 관련 정보",
+      "color": "#1d4ed8"
     }
   ],
   "metadata": {
     "version": "1.0",
     "lastUpdated": "2025-01-27",
-    "totalImages": 63,
-    "totalTags": 43
+    "totalImages": 87,
+    "totalTags": 65
   }
 }

@@ -3,7 +3,7 @@ import { GalleryData, Image } from '@/types/gallery'
 
 export function generateImageMetadata(image: Image): Metadata {
   const title = `${image.title} | 로컬리`
-  const description = `${image.description || image.title} - ${image.tags.join(', ')} | 네이버에 안나오는 동네지도`
+  const description = `${image.description || image.title} - ${image.tags.join(', ')} | 네이버에 안나오는 동네지도 (2025)`
   
   return {
     title,
@@ -33,7 +33,7 @@ export function generateTagMetadata(tagName: string, galleryData: GalleryData): 
   const tagImages = galleryData.images.filter(img => img.tags.includes(tagName))
   
   const title = `${tagName} 관련 정보 | 로컬리`
-  const description = `${tagName} ${tag?.description || '관련 정보'}를 확인하세요. ${tagImages.length}개의 이미지와 정보를 제공합니다. | 네이버에 안나오는 동네지도`
+  const description = `${tagName} ${tag?.description || '관련 정보'}를 확인하세요. ${tagImages.length}개의 이미지와 정보를 제공합니다. | 네이버에 안나오는 동네지도 (2025)`
   
   return {
     title,
@@ -62,12 +62,12 @@ export function generateLocationMetadata(location: string, galleryData: GalleryD
   )
   
   const title = `${location} 맛집 여행지 정보 | 로컬리`
-  const description = `${location} 지역의 맛집, 여행지, 숨은명소 정보를 확인하세요. ${locationImages.length}개의 검증된 정보를 제공합니다. | 네이버에 안나오는 동네지도`
+  const description = `${location} 지역의 맛집, 여행지, 숨은명소, 휴게소 정보를 확인하세요. ${locationImages.length}개의 검증된 정보를 제공합니다. | 네이버에 안나오는 동네지도 (2025)`
   
   return {
     title,
     description,
-    keywords: [`${location}맛집`, `${location}여행`, `${location}관광`, `${location}명소`, `${location}가볼만한곳`],
+    keywords: [`${location}맛집`, `${location}여행`, `${location}관광`, `${location}명소`, `${location}가볼만한곳`, `${location}휴게소`, `2025${location}맛집`, `2025${location}여행`],
     openGraph: {
       title,
       description,
