@@ -98,11 +98,11 @@ export const Gallery = memo(function Gallery({ data }: GalleryProps) {
                   href="https://localmap.cc" 
                   className="hover:scale-105 transition-transform duration-200"
                 >
-                  동네지도 | 네이버지도에는 없는 진짜 동네지도 - 맛집, 여행지, 숨은명소, 휴게소 (2025)
+                  동네지도
                 </Link>
               </h1>
               <p className="text-sm text-gray-600 mt-1" role="doc-subtitle">
-                전국 맛집 지도, 여행지 추천, 숨은 명소, 휴게소 정보까지! 네이버에서 찾을 수 없는 진짜 로컬 정보를 한눈에 확인하세요. 서울, 부산, 제주, 경주 등 전국 맛집과 여행 정보를 제공합니다.
+                네이버지도에는 없는 진짜 동네지도
               </p>
             </div>
           </div>
