@@ -964,7 +964,9 @@
       "title": "열차 음식 지도",
       "description": "열차 음식 지도",
       "tags": [   
-        "열차음식"
+        "열차음식", 
+        "코레일", 
+        "내일로"
       ]
     }, 
     {
@@ -1096,7 +1098,152 @@
       "tags": [   
         "소주"
       ]
+    },
+    {
+      "id": 109,
+      "filename": "전국국밥지도.jpg",
+      "title": "전국 국밥 지도",
+      "description": "전국 국밥 지도",
+      "tags": [   
+        "국밥"
+      ]
+    },
+    {
+      "id": 110,
+      "filename": "so1.jpg",
+      "title": "쇼비뇽블랑 지도",
+      "description": "쇼비뇽블랑 지도",
+      "tags": [   
+        "쇼비뇽블랑", 
+        "여름와인"
+      ]
+    },
+    {
+      "id": 111,
+      "filename": "so2.jpg",
+      "title": "쇼비뇽블랑 지도",
+      "description": "쇼비뇽블랑 지도",
+      "tags": [   
+        "쇼비뇽블랑", 
+        "여름와인"
+      ]
+    }, 
+    {
+      "id": 112,
+      "filename": "so3.jpg",
+      "title": "쇼비뇽블랑 지도",
+      "description": "쇼비뇽블랑 지도",
+      "tags": [   
+        "쇼비뇽블랑", 
+        "여름와인"
+      ]
+    },
+    {
+      "id": 113,
+      "filename": "so4.jpg",
+      "title": "쇼비뇽블랑 지도",
+      "description": "쇼비뇽블랑 지도",
+      "tags": [   
+        "쇼비뇽블랑", 
+        "여름와인"
+      ]
+    },
+    {
+      "id": 114,
+      "filename": "2024_여름_여행.jpg",
+      "title": "2024 여름 여행 지도",
+      "description": "2024 여름 여행 지도",
+      "tags": [   
+        "여름", 
+        "2024"
+      ]
+    }, 
+    {
+      "id": 115,
+      "filename": "오사카여행.jpg",
+      "title": "오사카 여행 지도",
+      "description": "오사카 여행 지도",
+      "tags": [   
+        "오사카", 
+        "일본"
+      ]
+    },
+    {
+      "id": 116,
+      "filename": "경양식.jpg",
+      "title": "경양식 지도",
+      "description": "경양식 지도",
+      "tags": [   
+        "경양식"
+      ]
+    },
+    {
+      "id": 117,
+      "filename": "대전-대덕구.jpg",
+      "title": "대전-대덕구 지,ㅋ도",
+      "description": "대전-대덕구 지도",
+      "tags": [   
+        "대전", 
+        "대덕구", 
+        "맛집"
+      ]
+    },
+    {
+      "id": 118,
+      "filename": "대전-동구.jpg",
+      "title": "대전-동구 지도",
+      "description": "대전-동구 지도",
+      "tags": [   
+        "대전", 
+        "동구", 
+        "맛집"
+      ]
+    },
+    {
+      "id": 119,
+      "filename": "대전-서구.jpg",
+      "title": "대전-서구 지도",
+      "description": "대전-서구 지도",
+      "tags": [   
+        "대전", 
+        "서구", 
+        "맛집"
+      ]
+    },
+    {
+      "id": 120,
+      "filename": "대전-중구.jpg",
+      "title": "대전-중구 지도",
+      "description": "대전-중구 지도",
+      "tags": [   
+        "대전", 
+        "중구", 
+        "맛집"
+      ]
+    },
+    {
+      "id": 121,
+      "filename": "대전-유성구.jpg",
+      "title": "대전-유성구 지도",
+      "description": "대전-유성구 지도",
+      "tags": [   
+        "대전", 
+        "유성구", 
+        "맛집"
+      ]
+    },
+    {
+      "id": 122,
+      "filename": "단양맛집지도.jpg",
+      "title": "단양맛집지도",
+      "description": "단양맛집지도",
+      "tags": [    
+        "단양", 
+        "맛집"
+      ]
     }
+
+
   ],
   "tags": [
     {
@@ -1473,12 +1620,77 @@
       "name": "소주",
       "description": "소주 관련 정보",
       "color": "#8b5a2b"
+    },
+    {
+      "name": "코레일",
+      "description": "코레일 관련 정보",
+      "color": "#0284c7"
+    },
+    {
+      "name": "내일로",
+      "description": "내일로 관련 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "쇼비뇽블랑",
+      "description": "쇼비뇽블랑 와인 관련 정보",
+      "color": "#84cc16"
+    },
+    {
+      "name": "여름와인",
+      "description": "여름와인 관련 정보",
+      "color": "#eab308"
+    },
+    {
+      "name": "오사카",
+      "description": "오사카 지역 정보",
+      "color": "#f97316"
+    },
+    {
+      "name": "경양식",
+      "description": "경양식 관련 정보",
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "대덕구",
+      "description": "대전 대덕구 지역 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "동구",
+      "description": "대전 동구 지역 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "서구",
+      "description": "대전 서구 지역 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "중구",
+      "description": "대전 중구 지역 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "유성구",
+      "description": "대전 유성구 지역 정보",
+      "color": "#06b6d4"
+    },
+    {
+      "name": "단양",
+      "description": "단양 지역 정보",
+      "color": "#10b981"
+    },
+    {
+      "name": "대전",
+      "description": "대전 지역 정보",
+      "color": "#ffd700"
     }
   ],
   "metadata": {
     "version": "1.0",
     "lastUpdated": "2025-01-27",
-    "totalImages": 108,
-    "totalTags": 77
+    "totalImages": 122,
+    "totalTags": 90
   }
 }
