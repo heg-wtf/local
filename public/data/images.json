@@ -1241,6 +1241,15 @@
         "단양", 
         "맛집"
       ]
+    },
+    {
+      "id": 123,
+      "filename": "2025-성북밀로지도.jpg",
+      "title": "2025 성북동 맛집 지도",
+      "description": "2025 성북동 맛집 지도",
+      "tags": [    
+        "성북동"
+      ]
     }
 
 
@@ -1685,12 +1694,17 @@
       "name": "대전",
       "description": "대전 지역 정보",
       "color": "#ffd700"
+    },
+    {
+      "name": "성북동",
+      "description": "성북동 지역 정보",
+      "color": "#3b82f6"
     }
   ],
   "metadata": {
     "version": "1.0",
     "lastUpdated": "2025-01-27",
-    "totalImages": 122,
-    "totalTags": 90
+    "totalImages": 123,
+    "totalTags": 91
   }
 }
